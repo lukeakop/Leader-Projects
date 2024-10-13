@@ -1,0 +1,16 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: white;
+}
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}

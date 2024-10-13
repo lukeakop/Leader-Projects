@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(33, 244, 103);
+}
+
+.container{
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label, input, select, button{
+  margin-bottom: 1rem;
+}
+
+button{
+  background-color: rgb(255, 255, 255);
+  color: rgb(133, 35, 238);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
